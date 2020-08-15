@@ -26,3 +26,13 @@ color: black;
 background-color: #1486c7;
 color: white;
 }
+
+.sprite-columbiaLogo {
+    fill: #1486c7
+}
+
+
+.jumbotron h1 {
+    color:  #1486c7;
+    font-weight: 400;
+}
