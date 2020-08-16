@@ -2,8 +2,6 @@ let productsList = JSON.parse(localStorage.getItem("productsList"));
 
 let cartTableBody = document.querySelector("#cart-table-body");
 
-// console.log(productsList);
-
 for (let productTitle in productsList) {
     let productQuantity = productsList[productTitle]["productQuantity"];
     let productImage = productsList[productTitle]["productImage"];
@@ -16,5 +14,17 @@ for (let productTitle in productsList) {
     </tr>`
 }
 
+let clearCartBtn = document.querySelector("#clear-cart-button");
+clearCartBtn.addEventListener('click', clearCart);
+function clearCart(e) {
+    e.preventDefault();
 
-// console.log(typeof localStorage.getItem("productsList"));
+    localStorage.clear();
+    location.reload();
+}
+
+let checkoutCartBtn = document.querySelector("#checkout-button");
+checkoutCartBtn.addEventListener('click', checkoutCart);
+function checkoutCart (e) {
+    e.preventDefault();
+}

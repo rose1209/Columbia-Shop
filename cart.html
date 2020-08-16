@@ -48,17 +48,27 @@
     </header>
 
     <div id="cart-body" class="container-flex body-main">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Title</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">Image</th>
-              </tr>
-            </thead>
-            <tbody id="cart-table-body">
-            </tbody>
-        </table>
+        <div id="action-buttons-div" class="row justify-content-center">
+            <div class="col-md-2">
+                <button id="clear-cart-button" class="btn btn-primary">Clear Cart</button>
+            </div>
+            <div class="col-md-2">
+                <button id="checkout-button" class="btn btn-primary">Checkout</button>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Image</th>
+                </tr>
+                </thead>
+                <tbody id="cart-table-body">
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <script src="./scripts/cart.js"></script>
