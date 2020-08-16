@@ -1,0 +1,9 @@
+.cart-row {
+    margin-bottom: 2ch;
+    height: 5ch;
+}
+
+.cart-product-image {
+    height: 100px;
+    width: 80px;
+}
