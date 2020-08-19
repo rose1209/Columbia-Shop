@@ -11,3 +11,13 @@
 #action-buttons-div {
     margin-bottom: 3ch;
 }
+
+#total_box_div {
+    border: 3px outset #1486c7;
+    border-radius: 5px;
+    padding: 3ch 2ch 3ch 2ch;
+    margin-bottom: 5ch;
+    width: 15ch;
+    text-align: center;
+    font-weight: bolder;
+}
